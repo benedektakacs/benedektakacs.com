@@ -1,9 +1,7 @@
 import * as React from 'react';
 import { graphql } from 'gatsby';
-import { Menu } from '../components/menu';
-import { PersonalInfo } from '../components/personal-info';
-import { ProjectList } from '../components/project-list';
 import { Project } from '../interface';
+import { App } from '../components/app';
 
 interface HomeInterface {
   data: {
@@ -16,13 +14,7 @@ interface HomeInterface {
 export const Home = ({ data }: HomeInterface) => {
   const projects = data.allProjectsJson.edges.map(x => x.node);
   
-  return (
-    <>
-      <Menu projects={projects}></Menu>
-      <ProjectList projects={projects}></ProjectList>
-      <PersonalInfo></PersonalInfo>
-    </>
-  );
+  return <App projects={projects}></App>;
 };
 
 export default Home;
