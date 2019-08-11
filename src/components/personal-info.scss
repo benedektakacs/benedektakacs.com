@@ -3,13 +3,14 @@ table {
   max-width: 750px;
 
   tr {
-    td:first {
+    td:first-child {
       width: 40%;
       vertical-align: top;
     }
 
-    td:last {
+    td:last-child {
       width: 60%;
+      padding-bottom: 16px;
     }
   }
 }

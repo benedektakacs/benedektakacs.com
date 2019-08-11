@@ -1,4 +1,10 @@
 .project {
+  margin-bottom: 36px;
+
+  &:last-child {
+    margin-bottom: 120px;
+  }
+
   .images {
     img {
       max-height: 1000px;
