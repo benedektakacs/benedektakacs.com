@@ -21,7 +21,7 @@ export const PersonalInfo = () => (
       <td>Swiss Goverment Excellence Scholarship<br />
         Hungarian Design Award<br />
         Miniature Book Society [USA] Student Grant<br />
-        Prix ECAL    
+        Prix ECAL<br />    
       </td>
     </tr>
     <tr>
