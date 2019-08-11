@@ -1,0 +1,21 @@
+.project {
+  .images {
+    img {
+      max-height: 1000px;
+      height: auto;
+      max-width: 100%;
+    }
+  }
+
+  .images.images--two {
+    display: flex;
+
+    > div {
+      flex: 1;
+    }
+
+    > div:first-child {
+      margin-right: 5px;
+    }
+  }
+}
