@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "GulliversTravel";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../data/font/GulliversTravel-Lilliput.woff") format('woff');
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
 .page {
+  margin: 5px;
+  font-family: "GulliversTravel";
+  font-size: 18px;
   max-width: 1500px;
+  box-sizing: border-box;
 }
