@@ -2,7 +2,10 @@
   {
     "title": "Arcus Temporum Art Festival",
     "description": "When creating the logo of the festival, first I wanted to answer the question, “which notions can define the atmosphere of a place?” This is how I got to the triple notion of -unity of time–place– and space; and to the picture of the three-way coordinate system involving them. The logo of the festival originates from this coordinate system. The arrow motive and the spatial reference of the coordinate system appear in the logo.",
-    "images": ["Arcus_1.jpg", "Arcus_2.jpg"],
+    "images": [
+      [{ "filename": "Arcus_1.jpg", "caption": "2016" }],
+      [{ "filename": "Arcus_2.jpg", "caption": "2017" }]
+    ],
     "orderId": "2"
   },
   {
