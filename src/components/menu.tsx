@@ -11,7 +11,8 @@ interface MenuInterface {
 import './menu.scss';
 
 export const Menu = ({ projects }: MenuInterface) => {
-  const abcMenu = ABC.split('').map(x => <Letter letter={x} projects={projects}></Letter>);
+  const projectsWithContact = [{ title: "Contact"}, ...projects] as any;
+  const abcMenu = ABC.split('').map(x => <Letter letter={x} projects={projectsWithContact}></Letter>);
   return <ul>{abcMenu}</ul>;
 };
 

@@ -3,7 +3,7 @@ import * as React from 'react';
 import './personal-info.scss';
 
 export const PersonalInfo = () => (
-  <table>
+  <table id="Contact">
     <tr>
       <td>Benedek Takács</td>
       <td>Graphic Design<br />
