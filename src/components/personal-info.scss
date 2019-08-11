@@ -1,0 +1,15 @@
+table {
+  width: 100%;
+  max-width: 750px;
+
+  tr {
+    td:first {
+      width: 40%;
+      vertical-align: top;
+    }
+
+    td:last {
+      width: 60%;
+    }
+  }
+}

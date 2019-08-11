@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+import './personal-info.scss';
+
 export const PersonalInfo = () => (
   <table>
     <tr>
