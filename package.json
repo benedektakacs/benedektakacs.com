@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/Greegko/benedektakacs.com#readme",
   "dependencies": {
+    "gatsby": "^2.13.57",
+    "gatsby-plugin-typescript": "^2.1.2",
+    "gatsby-source-filesystem": "^2.1.9",
+    "gatsby-transformer-json": "^2.2.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "typescript": "^3.5.3"
