@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { normalizeText } from '../utils';
 
 interface ProjectInterface {
   title: string;
@@ -7,7 +8,7 @@ interface ProjectInterface {
 }
 
 export const Project = ({ title, description, images }: ProjectInterface) => (
-  <div className="project">
+  <div className="project" id={"project_" + normalizeText(title)}>
     {images.map(x => <img src={x} />)}<br />
     {title} {description}
   </div>

@@ -1,11 +1,14 @@
 import * as React from 'react';
 import { Project } from '../interface';
+import { normalizeText } from '../utils';
 
 const ABC = 'ABCDEFGHIJKLMNPQRSTUVWXYZ';
 
 interface MenuInterface {
   projects: Project[];
 }
+
+import './menu.scss';
 
 export const Menu = ({ projects }: MenuInterface) => {
   const abcMenu = ABC.split('').map(x => <Letter letter={x} projects={projects}></Letter>);
@@ -16,7 +19,7 @@ const Letter = ({ letter, projects }: { letter: string, projects: Project[] }): 
   const titles = projects.map(x => x.title).filter(title => title[0] === letter);
 
   if(titles.length > 0){
-    return titles.map(x => <li>{x}</li>);
+    return titles.map(x => <li><a href={"#project_"+ normalizeText(x)}>{x}</a></li>);
   }
 
   return <li>{letter}</li>;
