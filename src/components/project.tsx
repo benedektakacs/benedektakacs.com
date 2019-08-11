@@ -8,7 +8,7 @@ interface ProjectInterface {
 }
 
 export const Project = ({ title, description, images }: ProjectInterface) => (
-  <div className="project" id={"project_" + normalizeText(title)}>
+  <div className="project" id={normalizeText(title)}>
     {images.map(x => <img src={x} />)}<br />
     {title} {description}
   </div>

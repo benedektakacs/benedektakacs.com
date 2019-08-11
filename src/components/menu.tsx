@@ -19,7 +19,7 @@ const Letter = ({ letter, projects }: { letter: string, projects: Project[] }): 
   const titles = projects.map(x => x.title).filter(title => title[0] === letter);
 
   if(titles.length > 0){
-    return titles.map(x => <li><a href={"#project_"+ normalizeText(x)}>{x}</a></li>);
+    return titles.map(x => <li><a href={"#"+ normalizeText(x)}>{x}</a></li>);
   }
 
   return <li>{letter}</li>;
