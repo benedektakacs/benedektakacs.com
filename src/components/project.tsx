@@ -7,9 +7,11 @@ interface ProjectInterface {
   images: string[];
 }
 
+import "./project.scss";
+
 export const Project = ({ title, description, images }: ProjectInterface) => (
   <div className="project" id={normalizeText(title)}>
     {images.map(x => <img src={x} />)}<br />
-    {title} {description}
+    <span className="title">{title}</span> <span className="description">{description}</span>
   </div>
 );
