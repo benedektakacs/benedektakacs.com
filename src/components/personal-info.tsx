@@ -33,7 +33,7 @@ export const PersonalInfo = () => (
       </td>
     </tr>
     <tr>
-      <td>All Rights Reserved</td>
+      <td>All rights reserved.</td>
       <td>2019<br /> 
       </td>
     </tr>
