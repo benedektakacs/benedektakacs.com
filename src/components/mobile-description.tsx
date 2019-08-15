@@ -13,7 +13,7 @@ export const MobileDescription = ({ title, description, showDescription, goBack 
   return (
     <div className={'mobile-description' + (showDescription ? ' mobile-description--show' : '')}>
       <div className="mobile-description__title">
-        <div onClick={() => goBack()}>Back</div><br />
+        <div onClick={() => goBack()}>back</div><br />
         <div>{title}</div><br />  
       </div>
       <div className="mobile-description__content">{description}</div>
