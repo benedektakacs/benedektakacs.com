@@ -2,10 +2,11 @@ import * as React from 'react';
 import { Menu } from './menu';
 import { PersonalInfo } from './personal-info';
 import { ProjectList } from './project-list';
-import { Project } from '../interface';
+import { Project, SiteInfo } from '../interface';
 
 interface AppInterface {
   projects: Project[];
+  siteInfo: SiteInfo;
 }
 
 import "./app.scss";

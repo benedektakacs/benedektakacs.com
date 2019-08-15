@@ -1,12 +1,15 @@
 import * as React from 'react';
 import { graphql } from 'gatsby';
-import { Project } from '../interface';
+import { Project, SiteInfo } from '../interface';
 import { App } from '../components/app';
 
 interface HomeInterface {
   data: {
     allProjectsJson: {
       edges: { node: Project }[];
+    },
+    dataJson: {
+      edges: { node: SiteInfo };
     }
   },
 }
@@ -14,7 +17,9 @@ interface HomeInterface {
 export const Home = ({ data }: HomeInterface) => {
   const projects = data.allProjectsJson.edges.map(x => x.node);
   
-  return <App projects={projects}></App>;
+  console.log(data.dataJson);
+
+  return <App projects={projects} siteInfo={data.dataJson}></App>;
 };
 
 export default Home;
@@ -32,6 +37,12 @@ export const query = graphql`
           }
         }
       }
+    }
+    dataJson {
+      siteTitle
+      siteMetaDescription
+      siteSocialImage
+      order
     }
   }
 `
