@@ -38,6 +38,8 @@ export const query = graphql`
       siteTitle
       siteMetaDescription
       siteSocialImage
+      siteAuthor
+      siteKeywords
       order
     }
   }
