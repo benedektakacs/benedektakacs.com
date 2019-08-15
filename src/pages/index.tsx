@@ -8,15 +8,13 @@ interface HomeInterface {
     allProjectsJson: {
       edges: { node: Project }[];
     },
-    dataJson: {
-      edges: { node: SiteInfo };
-    }
+    dataJson: SiteInfo
   },
 }
 
 export const Home = ({ data }: HomeInterface) => {
   const projects = data.allProjectsJson.edges.map(x => x.node);
-
+  
   return <App projects={projects} siteInfo={data.dataJson}></App>;
 };
 
