@@ -25,4 +25,8 @@ table {
         padding-bottom: 16px;
       }
   }
+
+  tr:last-child td:last-child {
+    padding: 0;
+  }
 }
