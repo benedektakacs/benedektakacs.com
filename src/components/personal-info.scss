@@ -12,13 +12,17 @@ table {
 
   tr {
     td:first-child {
-      width: 40%;
-      vertical-align: top;
-    }
+        @include desktop {
+          width: 40%;
+        }
+        vertical-align: top;
+      }
 
-    td:last-child {
-      width: 60%;
-      padding-bottom: 16px;
-    }
+      td:last-child {
+        @include desktop {
+          width: 60%;
+        }
+        padding-bottom: 16px;
+      }
   }
 }
