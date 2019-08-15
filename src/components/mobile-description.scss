@@ -1,3 +1,5 @@
+@import "../style/mixins.scss";
+
 .mobile-description {
   width: 100vw;
   height: 100%;
@@ -12,8 +14,10 @@
 
   padding-bottom: 10px;
 
-  &.mobile-description--show {
-    display: block;
+  @include mobile {
+    &.mobile-description--show {
+      display: block;
+    }
   }
 
   &__content {
