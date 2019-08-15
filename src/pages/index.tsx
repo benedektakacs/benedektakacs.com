@@ -26,7 +26,10 @@ export const query = graphql`
         node {
           title
           description
-          images
+          images {
+            caption
+            filename
+          }
         }
       }
     }

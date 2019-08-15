@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { normalizeText } from '../utils';
+import { ProjectImage } from '../interface';
 
 interface ProjectInterface {
   title: string;
@@ -16,27 +17,23 @@ export const Project = ({ title, description, images }: ProjectInterface) => (
   </div>
 );
 
-const Images = ({ images }: { images: string[] }) => {
-  const imagesSrc = images.map(x => require("../data/images/"+ x));
-
-  const nodes = [];
-
-  while(imagesSrc.length > 0) {
-    const a = imagesSrc.shift();
-    const b = imagesSrc.shift();
-
-    nodes.push(<ImageRow aImage={a} bImage={b}></ImageRow>);
-  }
-
-  return nodes as any;
+const Images = ({ images }: { images: ProjectImage[][] }) => {
+  return images.map(row => <ImageBlock images={row}></ImageBlock>);
 }
 
-const ImageRow = ({ aImage, bImage }: { aImage: string, bImage?: string}) => {
+const ImageBlock = ({ images }: { images: ProjectImage[] }): React.ReactNode => {
+  return chunk(images, 2).map(x => <ImageRow images={x}></ImageRow>) as any;
+}
+
+const ImageRow = ({ images }: { images: [ProjectImage] | [ProjectImage, ProjectImage] }) => {
+  const aImage = images[0];
+  const bImage = images[1];
   if(!bImage) {
     return (
       <div className="images images--one">
         <div>
-          <img src={aImage} />
+          <img src={require("../data/images/"+ aImage.filename)} />
+          {aImage.caption}
         </div>
       </div>
     );
@@ -44,12 +41,21 @@ const ImageRow = ({ aImage, bImage }: { aImage: string, bImage?: string}) => {
     return (
       <div className="images images--two">
         <div>
-          <img src={aImage} />
+          <img src={require("../data/images/"+ aImage.filename)} />
+          {aImage.caption}
         </div>
         <div>
-          <img src={bImage} />
+          <img src={require("../data/images/"+ bImage.filename)} />
+          {bImage.caption}
         </div>
       </div>
     )
   }
+}
+
+function chunk<T>(array: T[], chunkSize: number) {
+  var R = [];
+  for (var i = 0; i < array.length; i += chunkSize)
+    R.push(array.slice(i, i + chunkSize));
+  return R;
 }
