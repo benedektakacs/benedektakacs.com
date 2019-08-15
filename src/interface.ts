@@ -11,6 +11,8 @@ export interface ProjectImage {
 
 export interface SiteInfo {
   siteTitle: string;
+  siteKeywords: string;
+  siteAuthor: string;
   siteMetaDescription: string;
   siteSocialImage: string;
   order: string[];
