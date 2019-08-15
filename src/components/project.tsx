@@ -9,13 +9,19 @@ interface ProjectInterface {
 }
 
 import "./project.scss";
+import { MobileDescription } from './mobile-description';
 
-export const Project = ({ title, description, images }: ProjectInterface) => (
-  <div className="project" id={normalizeText(title)}>
-    <Images images={images} />
-    <span className="title">{title}</span> <span className="description">{description}</span>
-  </div>
-);
+export const Project = ({ title, description, images }: ProjectInterface) => {
+  const [showDescription, setShowDescription] = React.useState(false);
+
+  return (
+    <div className="project" id={normalizeText(title)}>
+      <MobileDescription title={title} description={description} showDescription={showDescription}></MobileDescription>
+      <Images images={images} />
+      <span className="title" onClick={() => setShowDescription(!showDescription)}>{title}</span> <span className="description">{description}</span>
+    </div>
+  )
+};
 
 const Images = ({ images }: { images: ProjectImage[][] }) => {
   return images.map(row => <ImageBlock images={row}></ImageBlock>);
