@@ -16,8 +16,6 @@ interface HomeInterface {
 
 export const Home = ({ data }: HomeInterface) => {
   const projects = data.allProjectsJson.edges.map(x => x.node);
-  
-  console.log(data.dataJson);
 
   return <App projects={projects} siteInfo={data.dataJson}></App>;
 };
