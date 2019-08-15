@@ -1,6 +1,14 @@
+@import "../style/mixins.scss";
+
 table {
   width: 100%;
   max-width: 750px;
+
+  @include mobile {
+    tr, td {
+      display: block;
+    }
+  }
 
   tr {
     td:first-child {
