@@ -34,7 +34,9 @@
     }
 
     > div:first-child {
-      margin-right: 5px;
+      @include desktop {
+        margin-right: 5px;
+      }
     }
   }
 
