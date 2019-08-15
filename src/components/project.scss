@@ -12,20 +12,16 @@
     margin-bottom: 120px;
   }
 
+  .caption:empty {
+    margin-bottom: 5px;
+  }
+
   .images {
     img {
       display: block;
       max-height: 1000px;
       height: auto;
       max-width: 100%;
-    }
-  }
-  
-  @include desktop {
-    .images:not(:last-child) {
-      img {
-        margin-bottom: 5px;
-      }
     }
   }
   

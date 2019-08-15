@@ -44,7 +44,7 @@ const ImageRow = ({ images }: { images: [ProjectImage] | [ProjectImage, ProjectI
       <div className="images images--one">
         <div>
           <img src={require("../data/images/"+ aImage.filename)} />
-          {aImage.caption}
+          <div className="caption">{aImage.caption}</div>
         </div>
       </div>
     );
@@ -53,11 +53,11 @@ const ImageRow = ({ images }: { images: [ProjectImage] | [ProjectImage, ProjectI
       <div className="images images--two">
         <div>
           <img src={require("../data/images/"+ aImage.filename)} />
-          {aImage.caption}
+          <div className="caption">{aImage.caption}</div>
         </div>
         <div>
           <img src={require("../data/images/"+ bImage.filename)} />
-          {bImage.caption}
+          <div className="caption">{bImage.caption}</div>
         </div>
       </div>
     )
