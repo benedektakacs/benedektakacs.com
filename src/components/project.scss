@@ -21,6 +21,14 @@
     }
   }
   
+  @include desktop {
+    .images:not(:last-child) {
+      img {
+        margin-bottom: 5px;
+      }
+    }
+  }
+  
   .images.images--two {   
     display: flex;
 
