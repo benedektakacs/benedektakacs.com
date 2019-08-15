@@ -14,7 +14,6 @@ import "./app.scss";
 export const App = ({ projects, siteInfo }: AppInterface) => (
   <div className="page">
     <Helmet>
-      <meta charSet="utf-8" />
       <meta name="description" content={siteInfo.siteMetaDescription} />
       <meta name="keywords" content={siteInfo.siteKeywords} />
       <meta name="author" content={siteInfo.siteAuthor} />
