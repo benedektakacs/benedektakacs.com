@@ -15,10 +15,13 @@ export const App = ({ projects, siteInfo }: AppInterface) => (
   <div className="page">
     <Helmet>
       <meta charSet="utf-8" />
-      <meta name="description" content={siteInfo.siteMetaDescription}></meta>
-      <meta name="keywords" content={siteInfo.siteKeywords}></meta>
-      <meta name="author" content={siteInfo.siteAuthor}></meta>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+      <meta name="description" content={siteInfo.siteMetaDescription} />
+      <meta name="keywords" content={siteInfo.siteKeywords} />
+      <meta name="author" content={siteInfo.siteAuthor} />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta property="og:title" content={siteInfo.siteTitle} />
+      <meta property="og:description" content={siteInfo.siteMetaDescription} />
+      <meta property="og:image" content={siteInfo.siteSocialImage} />
       <title>{siteInfo.siteTitle}</title>
     </Helmet>
     <Menu projects={projects}></Menu>
