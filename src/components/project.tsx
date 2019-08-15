@@ -16,7 +16,12 @@ export const Project = ({ title, description, images }: ProjectInterface) => {
 
   return (
     <div className="project" id={normalizeText(title)}>
-      <MobileDescription title={title} description={description} showDescription={showDescription}></MobileDescription>
+      <MobileDescription
+        title={title}
+        description={description}
+        showDescription={showDescription}
+        goBack={() => setShowDescription(false)}>
+      </MobileDescription>
       <Images images={images} />
       <span className="title" onClick={() => setShowDescription(!showDescription)}>{title}</span> <span className="description">{description}</span>
     </div>
