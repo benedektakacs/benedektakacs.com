@@ -8,6 +8,7 @@
   left: 0;
   display: none;
   padding: 5px;
+  overflow: scroll;
 
   &.mobile-description--show {
     display: block;
