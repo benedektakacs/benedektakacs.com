@@ -13,9 +13,9 @@ export const PersonalInfo = () => (
     </tr>
     <tr>
       <td>Education</td>
-      <td>ECAL	Lausanne CH '19<br />   	
-          MOME	Budapest HU '17<br />
-          UdK		Berlin DE '16<br />
+      <td>ECAL MA Lausanne CH '19<br />   	
+          MOME BA Budapest HU '17<br />
+          UdK BA Berlin DE '16<br />
       </td>
     </tr>
     <tr>
