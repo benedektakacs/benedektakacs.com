@@ -26,10 +26,16 @@ export const PersonalInfo = () => (
         Miniature Book Society [USA] Student Grant<br />    
       </td>
     </tr>
+     <tr>
+      <td>Curational Project</td>
+      <td>Pure Typography<br />
+        S<a href="https://www.puretypography.com">www.puretypography.com</a><br />    
+      </td>
+    </tr>
     <tr>
       <td>Contact</td>
       <td>mail[at]benedektakacs.com<br />
-        <a href="https://www.instagram.com/benedektakacs/">@benedektakacs</a><br />
+        <a href="https://www.instagram.com/benedektakacs/">[at]benedektakacs</a><br />
         Zürich–Budapest<br />    
       </td>
     </tr>
