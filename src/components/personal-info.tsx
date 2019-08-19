@@ -29,11 +29,12 @@ export const PersonalInfo = () => (
     <tr>
       <td>Contact</td>
       <td>mail[at]benedektakacs.com<br />
+        <a href="https://www.instagram.com/benedektakacs/">@benedektakacs</a><br />
         Zürich–Budapest<br />    
       </td>
     </tr>
     <tr>
-      <td>All rights reserved.</td>
+      <td>All Rights Reserved</td>
       <td>2019<br /> 
       </td>
     </tr>
