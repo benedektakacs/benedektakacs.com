@@ -29,7 +29,7 @@ export const PersonalInfo = () => (
     <tr>
       <td>Contact</td>
       <td>mail[at]benedektakacs.com<br />
-        Zürich<br />    
+        Zürich–Budapest<br />    
       </td>
     </tr>
     <tr>
