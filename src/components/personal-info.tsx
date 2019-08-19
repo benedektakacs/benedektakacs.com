@@ -27,7 +27,7 @@ export const PersonalInfo = () => (
       </td>
     </tr>
      <tr>
-      <td>Curational Project</td>
+      <td>Curational and Research Project</td>
       <td>Pure Typography<br />
         <a href="https://www.puretypography.com">www.puretypography.com</a><br />    
       </td>
@@ -36,7 +36,6 @@ export const PersonalInfo = () => (
       <td>Contact</td>
       <td>mail[at]benedektakacs.com<br />
         Zürich–Budapest<br />
-        <br />
         <a href="https://www.instagram.com/benedektakacs/">instagram</a><br />
             
       </td>
