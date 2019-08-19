@@ -29,7 +29,7 @@ export const PersonalInfo = () => (
      <tr>
       <td>Curational Project</td>
       <td>Pure Typography<br />
-        S<a href="https://www.puretypography.com">www.puretypography.com</a><br />    
+        <a href="https://www.puretypography.com">www.puretypography.com</a><br />    
       </td>
     </tr>
     <tr>
