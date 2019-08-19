@@ -36,7 +36,7 @@ export const PersonalInfo = () => (
       <td>Contact</td>
       <td>mail[at]benedektakacs.com<br />
         Zürich–Budapest<br />
-        <br />
+        <br /><br />
         <a href="https://www.instagram.com/benedektakacs/">instagram</a><br />
             
       </td>
