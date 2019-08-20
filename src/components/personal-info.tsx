@@ -26,6 +26,13 @@ export const PersonalInfo = () => (
         Miniature Book Society [USA] Student Grant<br />    
       </td>
     </tr>
+    <tr>
+      <td>Selected Exhibitions</td>
+      <td>Innovative by Design. Hungarian Design Highlight, Vienna AT'19
+        Csúcsformában, Pécs HU'18<br />
+        Hungarian Design Award Winners Exhibition, Budapest HU'15<br />
+      </td>
+    </tr>    
      <tr>
       <td>Curational Project</td>
       <td>Pure Typography<br />
@@ -44,5 +51,6 @@ export const PersonalInfo = () => (
       <td>2019<br /> 
       </td>
     </tr>
+    
   </table>
 );
