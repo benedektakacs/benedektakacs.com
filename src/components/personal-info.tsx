@@ -13,45 +13,29 @@ export const PersonalInfo = () => (
     </tr>
     <tr>
       <td>Education</td>
-      <td>ECAL MA Lausanne CH'19<br />   	
-          MOME BA Budapest HU'17<br />
-          UdK BA Berlin DE'16<br />
+      <td>ECAL	Lausanne, Switzerland [2017–19]<br />   	
+          MOME	Budapest, Hungary [2014–17]<br />
+          UdK		Berlin, Germany [2015–16]<br />
       </td>
     </tr>
     <tr>
       <td>Awards and Honors</td>
-      <td>Prix ECAL, Distinguished Quality of Master Thesis<br />
-        Swiss Government Excellence Scholarship<br />
+      <td>Swiss Goverment Excellence Scholarship<br />
         Hungarian Design Award<br />
         Miniature Book Society [USA] Student Grant<br />
-        test<br />
-      </td>
-    </tr>
-    <tr>
-      <td>Selected Exhibitions</td>
-      <td>Innovative by Design. Hungarian Design Highlight, Vienna AT'19<br />
-        Csúcsformában, Pécs HU'18<br />
-        Hungarian Design Award Winners Exhibition, Budapest HU'15<br />
-      </td>
-    </tr>    
-     <tr>
-      <td>Curational Project</td>
-      <td>Pure Typography<br />
-        <a href="https://www.puretypography.com">www.puretypography.com</a><br />    
+        Prix ECAL<br />    
       </td>
     </tr>
     <tr>
       <td>Contact</td>
       <td>mail[at]benedektakacs.com<br />
-        Zürich–Budapest<br />
-        <a href="https://www.instagram.com/benedektakacs/">instagram</a><br />
+        Zürich<br />    
       </td>
     </tr>
     <tr>
-      <td>All Rights Reserved</td>
+      <td>All rights reserved.</td>
       <td>2019<br /> 
       </td>
     </tr>
-    
   </table>
 );
