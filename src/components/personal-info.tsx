@@ -13,14 +13,14 @@ export const PersonalInfo = () => (
     </tr>
     <tr>
       <td>Education</td>
-      <td>ECAL MA Lausanne CH '19<br />   	
-          MOME BA Budapest HU '17<br />
-          UdK BA Berlin DE '16<br />
+      <td>ECAL MA Lausanne CH'19<br />   	
+          MOME BA Budapest HU'17<br />
+          UdK BA Berlin DE'16<br />
       </td>
     </tr>
     <tr>
       <td>Awards and Honors</td>
-      <td>Prix ECAL<br />
+      <td>Prix ECAL, Distinguished Quality of Master Thesis<br />
         Swiss Government Excellence Scholarship<br />
         Hungarian Design Award<br />
         Miniature Book Society [USA] Student Grant<br />    
