@@ -31,9 +31,16 @@
       [{ "filename": "floor_to_floor_1.jpg" }]
     ]
   },
-{
+  {
     "title": "Experimental Sketches",
     "description": "Berlin, 2016",
+    "images": [
+      [{ "filename": "16_BT_experimental_sketches_1.jpg" }]
+    ]
+  },
+  {
+    "title": "Pure Typography",
+    "description": "<a href="https://www.puretypography.com"></a>" <br />,
     "images": [
       [{ "filename": "16_BT_experimental_sketches_1.jpg" }]
     ]
