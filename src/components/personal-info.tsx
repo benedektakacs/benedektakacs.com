@@ -24,12 +24,11 @@ export const PersonalInfo = () => (
         Swiss Government Excellence Scholarship<br />
         Hungarian Design Award<br />
         Miniature Book Society [USA] Student Grant<br />
-        test<br />
       </td>
     </tr>
     <tr>
       <td>Selected Exhibitions</td>
-      <td>Innovative by Design. Hungarian Design Highlight, Vienna AT'19<br />
+      <td>Hungarian Design Highlight, Vienna AT'19<br />
         Csúcsformában, Pécs HU'18<br />
         Hungarian Design Award Winners Exhibition, Budapest HU'15<br />
       </td>
