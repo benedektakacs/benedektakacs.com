@@ -29,7 +29,7 @@ export const PersonalInfo = () => (
     <tr>
       <td>Selected Exhibitions</td>
       <td>Hungarian Design Highlight, Vienna AT 2019<br />
-        Csúcsformában, Pécs HU'18<br />
+        Csúcsformában, Pécs HU 2018<br />
         Hungarian Design Award Winners Exhibition, Budapest HU 2015<br />
       </td>
     </tr>    
