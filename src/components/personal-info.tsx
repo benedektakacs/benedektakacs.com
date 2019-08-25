@@ -20,7 +20,7 @@ export const PersonalInfo = () => (
     </tr>
     <tr>
       <td>Awards and Honors</td>
-      <td>Prix ECAL, Distinguished Quality of Master Thesis<br />
+      <td>Prix EXECAL, Distinguished Quality of Master Thesis<br />
         Swiss Government Excellence Scholarship<br />
         Hungarian Design Award<br />
         Miniature Book Society [USA] Student Grant<br />
