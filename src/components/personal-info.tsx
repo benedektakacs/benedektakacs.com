@@ -13,9 +13,9 @@ export const PersonalInfo = () => (
     </tr>
     <tr>
       <td>Education</td>
-      <td>ECAL MA Lausanne CH 2019<br />   	
-          MOME BA Budapest HU 2017<br />
-          UdK BA Berlin DE 2016<br />
+      <td>ECAL MA Lausanne CH 19<br />   	
+          MOME BA Budapest HU 17<br />
+          UdK BA Berlin DE 15<br />
       </td>
     </tr>
     <tr>
@@ -28,9 +28,9 @@ export const PersonalInfo = () => (
     </tr>
     <tr>
       <td>Selected Exhibitions</td>
-      <td>Hungarian Design Highlight, Vienna AT 2019<br />
-        Csúcsformában, Pécs HU 2018<br />
-        Hungarian Design Award Winners Exhibition, Budapest HU 2015<br />
+      <td>Hungarian Design Highlight, Vienna AT<br />
+        Csúcsformában, Pécs HU<br />
+        Hungarian Design Award Winners Exhibition, Budapest HU<br />
       </td>
     </tr>    
      <tr>
@@ -41,7 +41,7 @@ export const PersonalInfo = () => (
     </tr>
     <tr>
       <td>Contact</td>
-      <td>mail[at]benedektakacs.com<br />
+      <td>mail@benedektakacs.com<br />
         Zürich–Budapest<br />
         <a href="https://www.instagram.com/benedektakacs/">instagram</a><br />
       </td>
