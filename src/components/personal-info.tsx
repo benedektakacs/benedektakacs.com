@@ -10,7 +10,7 @@ export const PersonalInfo = () => (
         Type Design<br />
         Art Direction<br />
         <br />
-        Benedek Takács made his studies in graphic design and type design. He is recently completed his master degree at ECAL (CH) with qualification 'Excellent' and Prix EXECAL prize for the quality of his thesis. As his choosen topic of research and design of the master diploma shows a deep interest in the world of miniature books.<br />
+        Benedek Takács made his studies in graphic design and type design. He has recently completed his master degree at ECAL (CH) with qualification 'Excellent' and Prix EXECAL prize for the quality of his thesis. As his chosen topic of research and design of the master diploma shows a deep interest in the world of miniature books.<br />
         <br />
             
       </td>
