@@ -8,11 +8,11 @@ interface ProjectListInterface {
 }
 
 export const ProjectList = ({ projects, projectsOrder }: ProjectListInterface) => {
-  const ordered = [ ...projects ].sort(sortByOrderId(projectsOrder));
+  // projects = [ ...projects ].sort(sortByOrderId(projectsOrder));
 
   return (
     <div className="project_list">
-      {ordered.map(x => <ProjectComponent {...x}></ProjectComponent>)}
+      {projects.map(x => <ProjectComponent {...x}></ProjectComponent>)}
     </div>
   );
 };
