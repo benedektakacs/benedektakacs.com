@@ -21,8 +21,6 @@ function sortByOrderId(order: string[]) {
   return (x: Project, y: Project) => {
     const xIndex = order.indexOf(x.orderId);
     const yIndex = order.indexOf(y.orderId);
-    
-    console.log(xIndex, yIndex);
 
     if(xIndex === -1 && yIndex === -1) {
       return -1;
