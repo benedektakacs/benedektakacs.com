@@ -2,6 +2,7 @@ export interface Project {
   title: string;
   description: string;
   images: ProjectImage[][];
+  orderId?: string;
 }
 
 export interface ProjectImage {

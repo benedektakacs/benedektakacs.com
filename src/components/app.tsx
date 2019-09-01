@@ -23,7 +23,7 @@ export const App = ({ projects, siteInfo }: AppInterface) => (
       <title>{siteInfo.siteTitle}</title>
     </Helmet>
     <Menu projects={projects}></Menu>
-    <ProjectList projects={projects}></ProjectList>
+    <ProjectList projects={projects} projectsOrder={siteInfo.order}></ProjectList>
     <PersonalInfo></PersonalInfo>
   </div>
 );

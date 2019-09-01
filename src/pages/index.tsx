@@ -31,6 +31,7 @@ export const query = graphql`
             caption
             filename
           }
+          orderId
         }
       }
     }
