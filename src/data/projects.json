@@ -12,7 +12,7 @@
     "title": "Miniatűr Utópia",
     "description": "– Dimensions 4×5×4 m. Awards: Prix ECAL, Distinguished Quality of Master Thesis, Miniature Book Society [USA] Student Grant",
     "images": [
-      [{ "filename": "MiniaturUtopia_5.jpg", "caption": "" }],
+      [{ "filename": "MiniaturUtopia_5.jpg" }],
       [{ "filename": "MiniaturUtopia_1.jpg" }, { "filename": "MiniaturUtopia_2.jpg" }],
       [{ "filename": "MiniaturUtopia_3.jpg" }],
       [{ "filename": "MiniaturUtopia_4.jpg" }]

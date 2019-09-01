@@ -5,7 +5,7 @@ import { ProjectImage } from '../interface';
 interface ProjectInterface {
   title: string;
   description: string;
-  images: string[];
+  images: ProjectImage[][];
 }
 
 import "./project.scss";
@@ -29,39 +29,33 @@ export const Project = ({ title, description, images }: ProjectInterface) => {
 };
 
 const Images = ({ images }: { images: ProjectImage[][] }) => {
-  return images.map(row => <ImageBlock images={row}></ImageBlock>);
+  return images.map(row => <ImageRow images={row} />);
 }
 
-const ImageBlock = ({ images }: { images: ProjectImage[] }): React.ReactNode => {
-  return chunk(images, 2).map(x => <ImageRow images={x}></ImageRow>) as any;
-}
-
-const ImageRow = ({ images }: { images: [ProjectImage] | [ProjectImage, ProjectImage] }) => {
-  const aImage = images[0];
-  const bImage = images[1];
-  if(!bImage) {
+const ImageRow = ({ images }: { images: ProjectImage[] }) => {
+  if(images.length === 1) {
+    const image = images[0];
     return (
-      <div className="images images--one">
-        <div>
-          <img src={require("../data/images/"+ aImage.filename)} />
-          <div className="caption">{aImage.caption}</div>
-        </div>
+      <div className="images images--single">
+        <Image image={image} />
       </div>
     );
   } else {
     return (
-      <div className="images images--two">
-        <div>
-          <img src={require("../data/images/"+ aImage.filename)} />
-          <div className="caption">{aImage.caption}</div>
-        </div>
-        <div>
-          <img src={require("../data/images/"+ bImage.filename)} />
-          <div className="caption">{bImage.caption}</div>
-        </div>
+      <div className="images images--multiple">
+        {images.map(x => <Image image={x} />)}
       </div>
     )
   }
+}
+
+function Image({ image }: { image: ProjectImage }) {
+  return (
+    <div>
+      <img src={require("../data/images/"+ image.filename)} />
+      <div className="caption">{image.caption}</div>
+    </div>
+  )
 }
 
 function chunk<T>(array: T[], chunkSize: number) {
