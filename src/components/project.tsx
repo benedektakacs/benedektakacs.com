@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { normalizeText } from '../utils';
 import { ProjectImage } from '../interface';
+import { MobileDescription } from './mobile-description';
 
 interface ProjectInterface {
   title: string;
@@ -9,7 +10,6 @@ interface ProjectInterface {
 }
 
 import "./project.scss";
-import { MobileDescription } from './mobile-description';
 
 export const Project = ({ title, description, images }: ProjectInterface) => {
   const [showDescription, setShowDescription] = React.useState(false);
@@ -34,10 +34,9 @@ const Images = ({ images }: { images: ProjectImage[][] }) => {
 
 const ImageRow = ({ images }: { images: ProjectImage[] }) => {
   if(images.length === 1) {
-    const image = images[0];
     return (
       <div className="images images--single">
-        <Image image={image} />
+        <Image image={images[0]} />
       </div>
     );
   } else {
@@ -56,11 +55,4 @@ function Image({ image }: { image: ProjectImage }) {
       <div className="caption">{image.caption}</div>
     </div>
   )
-}
-
-function chunk<T>(array: T[], chunkSize: number) {
-  var R = [];
-  for (var i = 0; i < array.length; i += chunkSize)
-    R.push(array.slice(i, i + chunkSize));
-  return R;
 }
