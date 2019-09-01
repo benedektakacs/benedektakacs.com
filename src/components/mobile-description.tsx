@@ -16,7 +16,7 @@ export const MobileDescription = ({ title, description, showDescription, goBack 
         <div onClick={() => goBack()}>back</div><br />
         <div>{title}</div><br />  
       </div>
-      <div className="mobile-description__content">{description}</div>
+      <div className="mobile-description__content" dangerouslySetInnerHTML={{ __html: description }}></div>
     </div>
   );
 }

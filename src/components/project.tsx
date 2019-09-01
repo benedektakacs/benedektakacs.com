@@ -23,7 +23,7 @@ export const Project = ({ title, description, images }: ProjectInterface) => {
         goBack={() => setShowDescription(false)}>
       </MobileDescription>
       <Images images={images} />
-      <span className="title" onClick={() => setShowDescription(!showDescription)}>{title}</span> <span className="description">{description}</span>
+      <span className="title" onClick={() => setShowDescription(!showDescription)}>{title}</span> <span className="description" dangerouslySetInnerHTML={{ __html: description }}></span>
     </div>
   )
 };
