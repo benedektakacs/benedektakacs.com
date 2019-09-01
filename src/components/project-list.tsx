@@ -8,7 +8,7 @@ interface ProjectListInterface {
 }
 
 export const ProjectList = ({ projects, projectsOrder }: ProjectListInterface) => {
-  const ordered = projects.sort(sortByOrderId(projectsOrder));
+  const ordered = [ ...projects ].sort(sortByOrderId(projectsOrder));
 
   return (
     <div className="project_list">
