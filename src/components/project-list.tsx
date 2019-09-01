@@ -8,7 +8,7 @@ interface ProjectListInterface {
 }
 
 export const ProjectList = ({ projects, projectsOrder }: ProjectListInterface) => {
-  // projects = [ ...projects ].sort(sortByOrderId(projectsOrder));
+  projects = [ ...projects ].sort(sortByOrderId(projectsOrder));
 
   return (
     <div className="project_list">
@@ -19,13 +19,18 @@ export const ProjectList = ({ projects, projectsOrder }: ProjectListInterface) =
 
 function sortByOrderId(order: string[]) {
   return (x: Project, y: Project) => {
-    const xIndex = order.indexOf(x.orderId);
-    const yIndex = order.indexOf(y.orderId);
-
-    if(xIndex === -1 && yIndex === -1) {
+    if(y.orderId === null) {
       return -1;
     }
 
-    return xIndex !== -1 && xIndex < yIndex ? -1 : 1;
+    if(x.orderId === null){
+      return 1;
+    }
+
+    
+    const xIndex = order.indexOf(x.orderId);
+    const yIndex = order.indexOf(y.orderId);
+
+    return xIndex > yIndex ? 1 : -1;
   }
 };
