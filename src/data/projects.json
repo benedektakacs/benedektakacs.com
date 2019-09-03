@@ -24,7 +24,8 @@
     "description": "",
     "images": [
       [{ "filename": "Mod_1.jpg" }],
-      [{ "filename": "Mod_2.jpg" }, { "filename": "Mod_3.jpg" }],
+      [{ "filename": "Mod_2.jpg" }], 
+      [{ "filename": "Mod_3.jpg" }]
     ]
   },
   {
