@@ -25,27 +25,31 @@
     "images": [
       [{ "filename": "mod_1.jpg" }],
       [{ "filename": "mod_2.jpg" }]
-    ]
+    ],
+    "orderId": "mod",
   },
   {
     "title": "Elefánt",
     "description": "–",
     "images": [ 
       [{ "filename": "mod_3.jpg" }]
-    ]
+    ],
+    "orderId": "elefant",
   },
   {
     "title": "Floor to Floor",
     "description": "– Concept of stairs. Workshop with Louis Lüthi. ECAL Master in Type Design, 2018. Excerpt from Giampiero Aloi: Scale Stairs – Hoepli, Milan 1973",
     "images": [
       [{ "filename": "floor_to_floor_1.jpg" }]
-    ]
+    ],
+    "orderId": "floor",
   },
   {
     "title": "Experimental Sketches",
     "description": "Berlin, 2016",
     "images": [
       [{ "filename": "16_BT_experimental_sketches_1.jpg" }]
-    ]
+    ],
+    "orderId": "exp"
   }
 ]
