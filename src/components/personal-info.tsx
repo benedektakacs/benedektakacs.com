@@ -48,7 +48,8 @@ export const PersonalInfo = () => (
         Zürich–Budapest<br />
         <a href="https://www.instagram.com/benedektakacs/">instagram</a><br />
         <br />
-        Official member of Miniature Book Society [USA]<br />
+        Official member of<br /> 
+        Miniature Book Society [USA]<br />
       </td>
     </tr>
     <tr>
