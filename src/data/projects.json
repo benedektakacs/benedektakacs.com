@@ -23,9 +23,9 @@
     "title": "Modular Type",
     "description": "",
     "images": [
-      [{ "filename": "Mod_1.jpg" }],
-      [{ "filename": "Mod_2.jpg" }], 
-      [{ "filename": "Mod_3.jpg" }]
+      [{ "filename": "mod_1.jpg" }],
+      [{ "filename": "mod_2.jpg" }], 
+      [{ "filename": "mod_3.jpg" }]
     ]
   },
   {
