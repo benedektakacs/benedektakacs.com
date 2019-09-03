@@ -26,7 +26,7 @@
       [{ "filename": "mod_1.jpg" }],
       [{ "filename": "mod_2.jpg" }]
     ],
-    "orderId": "mod",
+    "orderId": "mod"
   },
   {
     "title": "Elefánt",
@@ -34,7 +34,7 @@
     "images": [ 
       [{ "filename": "mod_3.jpg" }]
     ],
-    "orderId": "elefant",
+    "orderId": "elefant"
   },
   {
     "title": "Floor to Floor",
@@ -42,7 +42,7 @@
     "images": [
       [{ "filename": "floor_to_floor_1.jpg" }]
     ],
-    "orderId": "floor",
+    "orderId": "floor"
   },
   {
     "title": "Experimental Sketches",
