@@ -24,7 +24,13 @@
     "description": "",
     "images": [
       [{ "filename": "mod_1.jpg" }],
-      [{ "filename": "mod_2.jpg" }], 
+      [{ "filename": "mod_2.jpg" }]
+    ]
+  },
+  {
+    "title": "Elefánt",
+    "description": "",
+    "images": [ 
       [{ "filename": "mod_3.jpg" }]
     ]
   },
