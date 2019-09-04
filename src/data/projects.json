@@ -29,20 +29,20 @@
     "orderId": "mod"
   },
   {
-    "title": "Elefánt",
-    "description": "–",
-    "images": [ 
-      [{ "filename": "mod_3.jpg" }]
-    ],
-    "orderId": "elefant"
-  },
-  {
     "title": "Floor to Floor",
     "description": "– Concept of stairs. Workshop with Louis Lüthi. ECAL Master in Type Design, 2018. Excerpt from Giampiero Aloi: Scale Stairs – Hoepli, Milan 1973",
     "images": [
       [{ "filename": "floor_to_floor_1.jpg" }]
     ],
     "orderId": "floor"
+  },
+  {
+    "title": "Montag Modus",
+    "description": "–",
+    "images": [ 
+      [{ "filename": "" }]
+    ],
+    "orderId": "mm"
   },
   {
     "title": "Experimental Sketches",
