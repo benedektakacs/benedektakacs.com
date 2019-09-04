@@ -24,7 +24,8 @@
     "description": "– Construction of Letters",
     "images": [
       [{ "filename": "mod_1.jpg" }],
-      [{ "filename": "mod_2.jpg" }]
+      [{ "filename": "mod_2.jpg" }],
+      [{ "filename": "mod_5.jpg" }]
     ],
     "orderId": "mod"
   },
@@ -38,7 +39,7 @@
   },
   {
     "title": "Elefánt",
-    "description": "–",
+    "description": "",
     "images": [ 
       [{ "filename": "mod_4.jpg" }]
     ],
