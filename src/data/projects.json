@@ -37,12 +37,12 @@
     "orderId": "floor"
   },
   {
-    "title": "Montag Modus",
+    "title": "Elefánt",
     "description": "–",
     "images": [ 
-      [{ "filename": "" }]
+      [{ "filename": "mod_4" }]
     ],
-    "orderId": "mm"
+    "orderId": "elefant"
   },
   {
     "title": "Experimental Sketches",
