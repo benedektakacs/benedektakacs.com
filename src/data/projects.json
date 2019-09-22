@@ -35,7 +35,7 @@
     "images": [
       [{ "filename": "mm_1.jpg" }],
       [{ "filename": "mm_2.jpg" }],
-      [{ "mm_clock.gif" }]
+      [{ "filename": "mm_clock.gif" }]
     ],
     "orderId": "mm"
   },
