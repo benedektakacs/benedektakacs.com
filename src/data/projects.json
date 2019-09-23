@@ -50,8 +50,7 @@
     "title": "Elefánt",
     "description": "– Alternative music band. Visual identity developed in collaboration with Adél Kovács.",
     "images": [ 
-      [{ "filename": "mod_6.jpg" }],
-      [{ "filename": "mod_7.jpg" }],
+      [{ "filename": "mod_6.jpg" }, { "filename": "mod_7.jpg" }],
       [{ "filename": "elefant_2.jpg" }]
     ],
     "orderId": "elefant"
