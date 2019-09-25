@@ -47,6 +47,14 @@
     "orderId": "floor"
   },
   {
+    "title": "Made in MOME",
+    "description": "– Yearbook made for Moholy-Nagy University of Art and Design Budapest. [In collaboration with Dávid Molnár]",
+    "images": [
+      [{ "filename": "made_1.jpg" }]
+    ],
+    "orderId": "made"
+  },
+  {
     "title": "Elefánt",
     "description": "– Alternative music band. Visual identity developed in collaboration with Adél Kovács.",
     "images": [ 
