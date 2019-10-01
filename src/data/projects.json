@@ -17,8 +17,8 @@
       [{ "filename": "Mini_10.jpg" }],
       [{ "filename": "Mini_3.jpg" }],
       [{ "filename": "Mini_4.jpg" }, { "filename": "Mini_6.jpg" }],
-      [{ "filename": "Mini_9.jpg" }],
-      [{ "filename": "Mini_11.jpg" }]
+      [{ "filename": "Mini_11.jpg" }],
+      [{ "filename": "Mini_9.jpg" }]
     ],
     "orderId": "Mini"
   },
