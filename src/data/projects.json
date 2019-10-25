@@ -58,11 +58,11 @@
     "description": "– Yearbook made for Moholy-Nagy University of Art and Design Budapest. [In collaboration with Dávid Molnár]",
     "images": [
       [{ "filename": "made_1.jpg" }],
-      [{ "filename": "made_2.jpg" }],
       [{ "filename": "made_3.jpg" }],
       [{ "filename": "made_4.jpg" }],
       [{ "filename": "made_5.jpg" }],
-      [{ "filename": "made_6.jpg" }]
+      [{ "filename": "made_6.jpg" }],
+      [{ "filename": "made_2.jpg" }]
     ],
     "orderId": "made"
   },
