@@ -15,13 +15,12 @@
       [{ "filename": "Mini_5.jpg" }],
       [{ "filename": "Mini_1.jpg" }, { "filename": "Mini_2.jpg" }],
       [{ "filename": "Mini_10.jpg" }],
+      [{ "filename": "Mini_3.jpg" }],
+      [{ "filename": "Mini_4.jpg" }, { "filename": "Mini_6.jpg" }],
       [{ "filename": "Mini_11.jpg" }],
       [{ "filename": "Mini_12.jpg" }],
       [{ "filename": "Mini_13.jpg" }],
       [{ "filename": "Mini_14.jpg" }],
-      [{ "filename": "Mini_3.jpg" }],
-      [{ "filename": "Mini_4.jpg" }, { "filename": "Mini_6.jpg" }],
-      [{ "filename": "Mini_11.jpg" }],
       [{ "filename": "Mini_9.jpg" }]
     ],
     "orderId": "Mini"
@@ -58,11 +57,11 @@
     "description": "– Yearbook made for Moholy-Nagy University of Art and Design Budapest. [In collaboration with Dávid Molnár]",
     "images": [
       [{ "filename": "made_1.jpg" }],
+      [{ "filename": "made_2.jpg" }],
       [{ "filename": "made_3.jpg" }],
       [{ "filename": "made_4.jpg" }],
       [{ "filename": "made_5.jpg" }],
-      [{ "filename": "made_6.jpg" }],
-      [{ "filename": "made_2.jpg" }]
+      [{ "filename": "made_6.jpg" }]
     ],
     "orderId": "made"
   },
