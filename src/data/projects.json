@@ -58,10 +58,10 @@
     "images": [
       [{ "filename": "made_1.jpg" }],
       [{ "filename": "made_2.jpg" }],
-      [{ "filename": "made_3.jpg" }],
       [{ "filename": "made_5.jpg" }],
-      [{ "filename": "made_4.jpg" }],
-      [{ "filename": "made_6.jpg" }]
+      [{ "filename": "made_3.jpg" }],
+      [{ "filename": "made_6.jpg" }],
+      [{ "filename": "made_4.jpg" }]
     ],
     "orderId": "made"
   },
